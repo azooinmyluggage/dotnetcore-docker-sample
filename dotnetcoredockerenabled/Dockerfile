@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore-build
+FROM microsoft/aspnetcore-build:1.1
 WORKDIR /app
 COPY publish/dotnetcoredockerenabled .
 ENV ASPNETCORE_URLS=http://+:8080
